@@ -25,6 +25,7 @@ The Goal was to improve upon Model 1 without changing the conv and Max-Pool stru
 Further improve upon Model 3 without any structural or parameter changes:
 <ul>
 <li> Make the training job further difficult by introducing image rotation (-8 -> 8 fdegrees). This helps in reducing overfitting
+<li> Decay the learning rates when plateau reached using the LRonPlateau Scheduler
 <li> Achieve accuracy of 99.4% consitently in last 5 epochs
 </ul>
 
